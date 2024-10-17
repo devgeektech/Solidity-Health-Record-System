@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_qualification",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_workPlace",
+						"type": "string"
+					}
+				],
+				"name": "RegisterDoctor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "ViewRegisterDoctor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Health_record_program.sol": "HealthRecordSystem"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Health_record_program.sol": {
+			"keccak256": "0xcad64ee4fd78158a6a494cd1afdfdfd5202b2a33d1890b85e048e6ca1480d0ec",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4d538f8920b4a12eb742a951a3a1705cda9db7b317608b5a7531634af8b81c0f",
+				"dweb:/ipfs/QmeBY4e898LjZxkk3H66cJ5oDoPnswTrBWdZcqpDcT3KDE"
+			]
+		}
+	},
+	"version": 1
+}
